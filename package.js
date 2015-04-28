@@ -9,7 +9,7 @@ Package._transitional_registerBuildPlugin({
   name: "compileIcedCoffeescript",
   use: [],
   sources: ['plugin/compile-iced.js'],
-  npmDependencies: {"iced-coffee-script": "1.8.0-a", "source-map": "0.1.32"}
+  npmDependencies: {"iced-coffee-script": "1.8.0-d", "source-map": "0.1.32"}
 });
 
 Package.onUse(function(api) {
