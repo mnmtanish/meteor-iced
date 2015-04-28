@@ -14,5 +14,5 @@ Package._transitional_registerBuildPlugin({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.addFiles('lib/iced-coffeescript.js');
+  api.addFiles('lib/iced-coffee-script-1.8.0-d.js');
 });
