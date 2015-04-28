@@ -16,3 +16,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('lib/iced-coffee-script-1.8.0-d.js');
 });
+
+Package.onTest(function(api) {
+  api.use(['tinytest', 'test-helpers', 'mnmtanish:iced']);
+  api.addFiles('tests/coffee.iced');
+});
