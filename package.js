@@ -2,7 +2,7 @@ Package.describe({
   name: 'mnmtanish:iced',
   summary: "Iced Coffee Script compiler and runtime for Meteor",
   git: 'https://github.com/mnmtanish/meteor-iced.git',
-  version: "1.0.0",
+  version: "1.1.0",
 });
 
 Package._transitional_registerBuildPlugin({
